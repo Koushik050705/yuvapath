@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import io
 from streamlit_option_menu import option_menu
-from googletrans import Translator, LANGUAGES
 import speech_recognition as sr
 
 # Initialize session state for authentication
@@ -159,29 +158,44 @@ USER_DB = {
 def authenticate(email, password):
     return email in USER_DB and USER_DB[email] == password
 
-# Sidebar with language selection and sign-in
+# Sidebar with navigation menu
 with st.sidebar:
     st.markdown("<h3 style='color: #00d4ff;'>🌌 Cosmic Settings</h3>", unsafe_allow_html=True)
     
-    if not st.session_state.authenticated:
-        st.markdown("<h3 class='glow-text'>🔒 Sign In</h3>", unsafe_allow_html=True)
-        email = st.text_input("Email", key="email_input")
-        password = st.text_input("Password", type="password", key="password_input")
-        if st.button("Sign In"):
-            if authenticate(email, password):
-                st.session_state.authenticated = True
-                st.session_state.email = email
-                st.success(f"Welcome, {email}! You are now signed in.")
-            else:
-                st.error("Invalid email or password.")
-    else:
-        st.markdown(f"<p class='glow-text'>Welcome, {st.session_state.email}!</p>", unsafe_allow_html=True)
-        if st.button("Sign Out"):
-            st.session_state.authenticated = False
-            st.session_state.email = ""
-            st.success("You have signed out.")
+    selected = option_menu(
+        menu_title=None,
+        options=["Sign In", "Settings"],
+        icons=["lock", "gear"],
+        menu_icon="cast",
+        default_index=0,
+        styles={
+            "container": {"background-color": "rgba(10, 27, 42, 0.9)", "border": "2px solid #00d4ff", "border-radius": "10px"},
+            "nav-link": {"color": "#e0e1dd", "--hover-color": "#00d4ff"},
+            "nav-link-selected": {"background-color": "#00d4ff", "color": "#0d1b2a"},
+        }
+    )
+
+    if selected == "Sign In":
+        if not st.session_state.authenticated:
+            st.markdown("<h3 class='glow-text'>🔒 Sign In</h3>", unsafe_allow_html=True)
+            email = st.text_input("Email", key="email_input")
+            password = st.text_input("Password", type="password", key="password_input")
+            if st.button("Sign In"):
+                if authenticate(email, password):
+                    st.session_state.authenticated = True
+                    st.session_state.email = email
+                    st.success(f"Welcome, {email}! You are now signed in.")
+                else:
+                    st.error("Invalid email or password.")
+        else:
+            st.markdown(f"<p class='glow-text'>Welcome, {st.session_state.email}!</p>", unsafe_allow_html=True)
+            if st.button("Sign Out"):
+                st.session_state.authenticated = False
+                st.session_state.email = ""
+                st.success("You have signed out.")
     
-    language = st.selectbox("Choose Language:", ["English", "Hindi", "Tamil", "Telugu"], key="language")
+    if selected == "Settings":
+        language = st.selectbox("Choose Language:", ["English", "Hindi", "Tamil", "Telugu"], key="language")
 
 # App title and subtitle
 st.markdown(
@@ -197,7 +211,30 @@ st.markdown(
 # Career selection (only shown if authenticated)
 if st.session_state.authenticated:
     st.markdown("<div class='card'>", unsafe_allow_html=True)
-    career_choice = st.selectbox("💫 Select Your Career Constellation:", available_careers, key="career")
+    st.markdown("<h3 class='glow-text'>💫 Select Your Career Constellation</h3>", unsafe_allow_html=True)
+    
+    # Voice input for career selection
+    if st.button("🎤 Select Career by Voice"):
+        recognizer = sr.Recognizer()
+        with sr.Microphone() as source:
+            st.info("Listening... Speak the career name.")
+            try:
+                audio = recognizer.listen(source, timeout=5)
+                career_input = recognizer.recognize_google(audio).lower()
+                career_choice = next((career for career in available_careers if career_input in career.lower()), None)
+                if career_choice:
+                    st.session_state.career = career_choice
+                    st.success(f"Selected career: {career_choice}")
+                else:
+                    st.error("Career not recognized. Please try again or select manually.")
+            except sr.WaitTimeoutError:
+                st.error("No input detected. Please try again.")
+            except sr.UnknownValueError:
+                st.error("Could not understand the audio. Please try again.")
+            except sr.RequestError:
+                st.error("Speech recognition service unavailable. Please select manually.")
+    
+    career_choice = st.selectbox("Select Career:", available_careers, key="career")
     st.markdown("</div>", unsafe_allow_html=True)
 
     # Display selected career details
