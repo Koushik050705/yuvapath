@@ -20,7 +20,7 @@
         {"name": "Deep Learning Foundations", "link": "https://www.linkedin.com/learning/deep-learning-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Data Science & AI Tools": [
-        {"name": "Data Analysis with Pandas - Udemy", "IX": "https://www.udemy.com/course/python-for-data-analysis-pandas-numpy-and-csv/", "platform": "Udemy"},
+        {"name": "Data Analysis with Pandas - Udemy", "link": "https://www.udemy.com/course/python-for-data-analysis-pandas-numpy/", "platform": "Udemy"},
         {"name": "Applied AI with Python", "link": "https://www.linkedin.com/learning/applied-ai-with-python", "platform": "LinkedIn Learning"},
         {"name": "AI Tools for Productivity", "link": "https://www.linkedin.com/learning/artificial-intelligence-tools-and-concepts", "platform": "LinkedIn Learning"}
       ],
@@ -38,12 +38,12 @@
     "duration": "6–12 months",
     "phases": {
       "Phase 1: HTML, CSS, JavaScript Basics": [
-        {"name": "HTML & CSS - Coursera", "link": "https://www.coursera.org/learn/web-design-html-css", "platform": "Coursera"},
+        {"name": "HTML & CSS - Coursera", "link": "https://www.coursera.org/learn/html-css-javascript-for-web-developers", "platform": "Coursera"},
         {"name": "JavaScript Basics - FreeCodeCamp", "link": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", "platform": "FreeCodeCamp"},
-        {"name": "HTML, CSS, JS Essentials", "link": "https://www.linkedin.com/learning/html-css-and-javascript-essential-training", "platform": "LinkedIn Learning"}
+        {"name": "HTML, CSS, JS Essentials", "link": "https://www.linkedin.com/learning/html-css-javascript-essential-training", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Frontend Development": [
-        {"name": "React JS Full Course - Udemy", "link": "https://www.udemy.com/course/react-js-and-redux-mastering-web-apps/", "platform": "Udemy"},
+        {"name": "React JS Full Course - Udemy", "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/", "platform": "Udemy"},
         {"name": "JavaScript Projects - FreeCodeCamp", "link": "https://www.freecodecamp.org/learn/front-end-development-libraries/", "platform": "FreeCodeCamp"},
         {"name": "React Essential Training", "link": "https://www.linkedin.com/learning/react-js-essential-training", "platform": "LinkedIn Learning"}
       ],
@@ -70,12 +70,12 @@
     "duration": "6–12 months",
     "phases": {
       "Phase 1: Python & Statistics": [
-        {"name": "Python for Data Science - Coursera", "link": "https://www.coursera.org/learn/python-for-data-science", "platform": "Coursera"},
+        {"name": "Python for Data Science - Coursera", "link": "https://www.coursera.org/learn/python-for-data-science-introduction", "platform": "Coursera"},
         {"name": "Statistics for Data Science - Khan Academy", "link": "https://www.khanacademy.org/math/statistics-probability", "platform": "Khan Academy"},
         {"name": "Statistics Foundations", "link": "https://www.linkedin.com/learning/statistics-foundations-1", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Data Analysis & Visualization": [
-        {"name": "Pandas Data Analysis - Udemy", "link": "https://www.udemy.com/course/python-for-data-analysis-pandas-numpy-and-csv/", "platform": "Udemy"},
+        {"name": "Pandas Data Analysis - Udemy", "link": "https://www.udemy.com/course/python-for-data-analysis-pandas-numpy/", "platform": "Udemy"},
         {"name": "Data Visualization with Python - Coursera", "link": "https://www.coursera.org/learn/python-plotting", "platform": "Coursera"},
         {"name": "Data Visualization", "link": "https://www.linkedin.com/learning/data-visualization-2", "platform": "LinkedIn Learning"}
       ],
@@ -101,7 +101,7 @@
     "duration": "6–12 months",
     "phases": {
       "Phase 1: Networking & Security Basics": [
-        {"name": "Networking Fundamentals - Cisco Networking Academy", "link": "https://www.netacad.com/courses/networking", "platform": "Cisco Networking Academy"},
+        {"name": "Networking Fundamentals - Cisco Networking Academy", "link": "https://www.netacad.com/courses/networking/networking-essentials", "platform": "Cisco Networking Academy"},
         {"name": "Cybersecurity Basics", "link": "https://www.linkedin.com/learning/cybersecurity-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Ethical Hacking": [
@@ -167,7 +167,7 @@
         {"name": "Auditing Foundations", "link": "https://www.linkedin.com/learning/auditing-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Excel & Business Tools": [
-        {"name": "Excel for Beginners - Coursera", "link": "https://www.coursera.org/learn/excel-basics", "platform": "Coursera"},
+        {"name": "Excel for Beginners - Coursera", "link": "https://www.coursera.org/learn/excel-basics-data-analysis", "platform": "Coursera"},
         {"name": "Excel Essential Training", "link": "https://www.linkedin.com/learning/excel-essential-training-office-365", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
@@ -182,19 +182,19 @@
     "duration": "6–12 months (Skill Building)",
     "phases": {
       "Phase 1: Introduction to Law": [
-        {"name": "Basics of Indian Law - edX", "link": "https://www.edx.org/course/introduction-to-indian-law", "platform": "edX"},
+        {"name": "Basics of Indian Law - edX", "link": "https://www.edx.org/learn/indian-law", "platform": "edX"},
         {"name": "Legal Research Fundamentals", "link": "https://www.linkedin.com/learning/legal-research-fundamentals", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Constitutional & Criminal Law": [
-        {"name": "Indian Constitution Basics - Coursera", "link": "https://www.coursera.org/learn/indian-constitutional-law", "platform": "Coursera"},
+        {"name": "Indian Constitution Basics - Coursera", "link": "https://www.coursera.org/learn/introduction-to-indian-constitution", "platform": "Coursera"},
         {"name": "Criminal Law Basics", "link": "https://www.linkedin.com/learning/criminal-law-basics", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Contract & Corporate Law": [
-        {"name": "Contract Law Essentials - edX", "link": "https://www.edx.org/course/contract-law-from-trust-to-promise-to-contract", "platform": "edX"},
+        {"name": "Contract Law Essentials - edX", "link": "https://www.edx.org/learn/contract-law/harvard-university-contract-law-from-trust-to-promise-to-contract", "platform": "edX"},
         {"name": "Corporate Law Foundations", "link": "https://www.linkedin.com/learning/corporate-law-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Legal Writing & Advocacy": [
-        {"name": "Legal Drafting Basics - Coursera", "link": "https://www.coursera.org/learn/legal-writing-and-drafting", "platform": "Coursera"},
+        {"name": "Legal Drafting Basics - Coursera", "link": "https://www.coursera.org/learn/legal-writing-drafting", "platform": "Coursera"},
         {"name": "Legal Writing Skills", "link": "https://www.linkedin.com/learning/legal-writing-skills", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
@@ -217,11 +217,11 @@
         {"name": "Statistics Foundations", "link": "https://www.linkedin.com/learning/statistics-foundations-1", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Laboratory & Research Skills": [
-        {"name": "Lab Safety & Procedures - Coursera", "link": "https://www.coursera.org/learn/lab-safety", "platform": "Coursera"},
+        {"name": "Lab Safety & Procedures - Coursera", "link": "https://www.coursera.org/learn/chemical-safety", "platform": "Coursera"},
         {"name": "Research Skills Foundations", "link": "https://www.linkedin.com/learning/research-skills-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Technical Tools & Software": [
-        {"name": "Excel for Science Data - Coursera", "link": "https://www.coursera.org/learn/excel-skills-for-data-analysis", "platform": "Coursera"},
+        {"name": "Excel for Science Data - Coursera", "link": "https://www.coursera.org/learn/excel-data-analysis", "platform": "Coursera"},
         {"name": "SPSS Statistics Essentials", "link": "https://www.linkedin.com/learning/spss-statistics-essential-training", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
