@@ -1,0 +1,42 @@
+{
+  "ai": {
+    "title": "AI Career Roadmap",
+    "salary": "₹8–25 LPA",
+    "duration": "6–12 months",
+    "phases": {
+      "Phase 1: Python & Math Basics": [
+        {
+          "name": "Python Basics - CodeWithHarry",
+          "link": "https://youtube.com/playlist?list=PLu0W_9lII9ahR1blWXxgSlL2UO3s8x2xR",
+          "platform": "YouTube"
+        },
+        {
+          "name": "Math for ML - 3Blue1Brown",
+          "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+          "platform": "YouTube"
+        }
+      ],
+      "Phase 2: Machine Learning Foundations": [
+        {
+          "name": "ML Basics - Krish Naik",
+          "link": "https://www.youtube.com/playlist?list=PLZoTAELRMXVP3nqmF_4l2t2c6Qe0Jt1br",
+          "platform": "YouTube"
+        }
+      ],
+      "Phase 3: Deep Learning & NLP": [
+        {
+          "name": "Deep Learning - Deeplearning.ai",
+          "link": "https://www.youtube.com/@deeplearningai",
+          "platform": "YouTube"
+        }
+      ],
+      "Phase 4: Portfolio & Job Prep": [
+        {
+          "name": "Portfolio Building - Tech With Tim",
+          "link": "https://www.youtube.com/watch?v=1u7Q6nkpJhg",
+          "platform": "YouTube"
+        }
+      ]
+    }
+  }
+}
