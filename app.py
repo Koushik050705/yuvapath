@@ -2,11 +2,14 @@ import streamlit as st
 import json
 import pandas as pd
 import io
+from streamlit_option_menu import option_menu
+from googletrans import Translator, LANGUAGES
+import speech_recognition as sr
 
 # Initialize session state for authentication
 if 'authenticated' not in st.session_state:
     st.session_state.authenticated = False
-    st.session_state.username = ""
+    st.session_state.email = ""
 
 # Load the career roadmap data
 with open("roadmap_data.json", "r", encoding="utf-8") as file:
@@ -148,13 +151,13 @@ st.markdown(
 
 # Simple user database for demo purposes (in production, use a secure database)
 USER_DB = {
-    "user1": "password1",
-    "user2": "password2"
+    "user1@example.com": "password1",
+    "user2@example.com": "password2"
 }
 
 # Sign-in functionality
-def authenticate(username, password):
-    return username in USER_DB and USER_DB[username] == password
+def authenticate(email, password):
+    return email in USER_DB and USER_DB[email] == password
 
 # Sidebar with language selection and sign-in
 with st.sidebar:
@@ -162,20 +165,20 @@ with st.sidebar:
     
     if not st.session_state.authenticated:
         st.markdown("<h3 class='glow-text'>🔒 Sign In</h3>", unsafe_allow_html=True)
-        username = st.text_input("Username", key="username_input")
+        email = st.text_input("Email", key="email_input")
         password = st.text_input("Password", type="password", key="password_input")
         if st.button("Sign In"):
-            if authenticate(username, password):
+            if authenticate(email, password):
                 st.session_state.authenticated = True
-                st.session_state.username = username
-                st.success(f"Welcome, {username}! You are now signed in.")
+                st.session_state.email = email
+                st.success(f"Welcome, {email}! You are now signed in.")
             else:
-                st.error("Invalid username or password.")
+                st.error("Invalid email or password.")
     else:
-        st.markdown(f"<p class='glow-text'>Welcome, {st.session_state.username}!</p>", unsafe_allow_html=True)
+        st.markdown(f"<p class='glow-text'>Welcome, {st.session_state.email}!</p>", unsafe_allow_html=True)
         if st.button("Sign Out"):
             st.session_state.authenticated = False
-            st.session_state.username = ""
+            st.session_state.email = ""
             st.success("You have signed out.")
     
     language = st.selectbox("Choose Language:", ["English", "Hindi", "Tamil", "Telugu"], key="language")
