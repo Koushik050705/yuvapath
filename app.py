@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import pandas as pd
+import plotly.express as px
 from io import StringIO
 import os
 
@@ -273,56 +274,37 @@ with st.form("quiz_form"):
         st.markdown(f"<p class='glow-text'>Recommended Career: <strong>{roadmap_data[recommended_career]['title']}</strong></p>", unsafe_allow_html=True)
 st.markdown("</div>", unsafe_allow_html=True)
 
-# Career comparison chart
+# Career comparison chart using Plotly
 st.markdown("<div class='card'>", unsafe_allow_html=True)
 st.markdown("<h3 class='glow-text'>📊 Career Salary Comparison</h3>", unsafe_allow_html=True)
 salary_data = {
     career: [int(s.replace("₹", "").split("–")[0]), int(s.replace("₹", "").split("–")[1].replace(" LPA", ""))]
     for career, data in roadmap_data.items()
 }
-chart_data = {
-    "labels": [roadmap_data[career]["title"] for career in available_careers],
-    "datasets": [
-        {
-            "label": "Min Salary (LPA)",
-            "data": [salary_data[career][0] for career in available_careers],
-            "backgroundColor": "#00d4ff",
-            "borderColor": "#00d4ff",
-            "borderWidth": 1
-        },
-        {
-            "label": "Max Salary (LPA)",
-            "data": [salary_data[career][1] for career in available_careers],
-            "backgroundColor": "#778beb",
-            "borderColor": "#778beb",
-            "borderWidth": 1
-        }
-    ]
-}
-```chartjs
-{
-    "type": "bar",
-    "data": %s,
-    "options": {
-        "scales": {
-            "y": {
-                "beginAtZero": true,
-                "title": { "display": true, "text": "Salary (LPA)", "color": "%s" }
-            },
-            "x": {
-                "title": { "display": true, "text": "Career", "color": "%s" }
-            }
-        },
-        "plugins": {
-            "legend": { "labels": { "color": "%s" } },
-            "title": { "display": true, "text": "Career Salary Comparison", "color": "%s" }
-        }
-    }
-}
-``` % (json.dumps(chart_data), "#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50",
-       "#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50",
-       "#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50",
-       "#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50")
+df = pd.DataFrame({
+    "Career": [roadmap_data[career]["title"] for career in available_careers],
+    "Min Salary (LPA)": [salary_data[career][0] for career in available_careers],
+    "Max Salary (LPA)": [salary_data[career][1] for career in available_careers]
+})
+fig = px.bar(
+    df,
+    x="Career",
+    y=["Min Salary (LPA)", "Max Salary (LPA)"],
+    barmode="group",
+    title="Career Salary Comparison",
+    labels={"value": "Salary (LPA)", "variable": "Salary Type"},
+    color_discrete_map={"Min Salary (LPA)": "#00d4ff", "Max Salary (LPA)": "#778beb"}
+)
+fig.update_layout(
+    paper_bgcolor="rgba(0,0,0,0)",
+    plot_bgcolor="rgba(0,0,0,0)",
+    font_color="#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50",
+    title_font_color="#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50",
+    xaxis_title_font_color="#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50",
+    yaxis_title_font_color="#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50",
+    legend_font_color="#e0e1dd" if st.session_state.theme == "dark" else "#2c3e50"
+)
+st.plotly_chart(fig, use_container_width=True)
 st.markdown("</div>", unsafe_allow_html=True)
 
 # Career selection
