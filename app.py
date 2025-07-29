@@ -10,7 +10,7 @@ available_careers = list(roadmap_data.keys())
 
 # Set page configuration
 st.set_page_config(
-    page_title="YuvaPath - Cosmic Career Guidance",
+    page_title="YuvaPath -  Career Guidance",
     page_icon="🌌",
     layout="wide",
     initial_sidebar_state="expanded"
