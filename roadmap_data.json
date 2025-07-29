@@ -30,7 +30,24 @@
         {"name": "AI and Machine Learning Interview Prep", "link": "https://www.udemy.com/course/ai-machine-learning-interview-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Sentiment Analysis Tool",
+        "description": "Develop a tool to analyze sentiment in social media posts using NLP libraries like NLTK or spaCy.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Image Recognition App",
+        "description": "Create a deep learning model to classify images using TensorFlow or PyTorch.",
+        "difficulty": "Advanced"
+      },
+      {
+        "title": "Chatbot for Customer Support",
+        "description": "Build a chatbot for answering common customer queries using Python and Dialogflow.",
+        "difficulty": "Intermediate"
+      }
+    ]
   },
   "web development": {
     "title": "Web Development Career Roadmap",
@@ -62,7 +79,24 @@
         {"name": "Web Developer Bootcamp and Interview Prep", "link": "https://www.udemy.com/course/web-developer-bootcamp/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "E-Commerce Website",
+        "description": "Build a full-stack e-commerce site with React, Node.js, and MongoDB.",
+        "difficulty": "Advanced"
+      },
+      {
+        "title": "Personal Portfolio",
+        "description": "Create a responsive portfolio website using HTML, CSS, and JavaScript.",
+        "difficulty": "Beginner"
+      },
+      {
+        "title": "Task Manager App",
+        "description": "Develop a task management app with React and a REST API backend.",
+        "difficulty": "Intermediate"
+      }
+    ]
   },
   "data science": {
     "title": "Data Science Career Roadmap",
@@ -93,7 +127,24 @@
         {"name": "Data Science Interview Preparation", "link": "https://www.udemy.com/course/data-science-interview-preparation/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Predictive Sales Model",
+        "description": "Develop a model to predict sales trends using historical data and scikit-learn.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Customer Segmentation",
+        "description": "Create a clustering model to segment customers based on purchasing behavior.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Interactive Dashboard",
+        "description": "Build an interactive dashboard with Tableau or Plotly for data visualization.",
+        "difficulty": "Beginner"
+      }
+    ]
   },
   "cybersecurity": {
     "title": "Cybersecurity Career Roadmap",
@@ -120,7 +171,24 @@
         {"name": "Cybersecurity Career Prep", "link": "https://www.udemy.com/course/cybersecurity-career-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Network Vulnerability Scanner",
+        "description": "Create a tool to scan networks for vulnerabilities using Python and Nmap.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Password Strength Checker",
+        "description": "Develop a web app to evaluate password strength and suggest improvements.",
+        "difficulty": "Beginner"
+      },
+      {
+        "title": "Phishing Detection System",
+        "description": "Build a machine learning model to detect phishing emails.",
+        "difficulty": "Advanced"
+      }
+    ]
   },
   "cloud computing": {
     "title": "Cloud Computing Career Roadmap",
@@ -147,7 +215,24 @@
         {"name": "Cloud Computing Career Prep", "link": "https://www.udemy.com/course/cloud-computing-career-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Serverless Web App",
+        "description": "Build a serverless web application using AWS Lambda and API Gateway.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Cloud-Based File Storage",
+        "description": "Create a file storage system using AWS S3 or Azure Blob Storage.",
+        "difficulty": "Beginner"
+      },
+      {
+        "title": "Automated CI/CD Pipeline",
+        "description": "Set up a CI/CD pipeline for a web app using AWS CodePipeline or Azure DevOps.",
+        "difficulty": "Advanced"
+      }
+    ]
   },
   "bcom": {
     "title": "B.Com (Bachelor of Commerce) Career Roadmap",
@@ -174,7 +259,24 @@
         {"name": "Accounting and Finance Interview Prep", "link": "https://www.udemy.com/course/accounting-finance-interview-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Financial Dashboard",
+        "description": "Create an Excel-based dashboard to track financial metrics for a small business.",
+        "difficulty": "Beginner"
+      },
+      {
+        "title": "Tax Calculator",
+        "description": "Develop a Python script to calculate income tax based on Indian tax slabs.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Budget Planner App",
+        "description": "Build a web app for personal or business budget planning using HTML and JavaScript.",
+        "difficulty": "Intermediate"
+      }
+    ]
   },
   "law": {
     "title": "Law Career Roadmap",
@@ -201,7 +303,24 @@
         {"name": "Legal Career Preparation", "link": "https://www.udemy.com/course/legal-career-preparation/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Legal Case Management Tool",
+        "description": "Create a web app to organize and track legal case details using HTML and JavaScript.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Contract Template Generator",
+        "description": "Develop a Python script to generate standard contract templates.",
+        "difficulty": "Beginner"
+      },
+      {
+        "title": "Legal Research Database",
+        "description": "Build a database-driven app to store and search legal precedents.",
+        "difficulty": "Advanced"
+      }
+    ]
   },
   "bsc": {
     "title": "B.Sc (Bachelor of Science) Career Roadmap",
@@ -228,7 +347,24 @@
         {"name": "Science Career Preparation", "link": "https://www.coursera.org/learn/science-career-preparation", "platform": "Coursera"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Data Analysis Tool",
+        "description": "Create a Python tool to analyze scientific data using Pandas and Matplotlib.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Simulation of Physical Systems",
+        "description": "Develop a simulation of a physical system (e.g., pendulum motion) using Python.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Lab Report Generator",
+        "description": "Build a web app to generate formatted lab reports using HTML and JavaScript.",
+        "difficulty": "Beginner"
+      }
+    ]
   },
   "mba": {
     "title": "MBA (Master of Business Administration) Career Roadmap",
@@ -255,6 +391,23 @@
         {"name": "MBA Career Prep", "link": "https://www.udemy.com/course/mba-career-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
-    }
+    },
+    "project_ideas": [
+      {
+        "title": "Market Analysis Report",
+        "description": "Create a detailed market analysis report for a chosen industry using Excel and Tableau.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Business Plan Generator",
+        "description": "Develop a web app to create business plans with templates using HTML and JavaScript.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "title": "Financial Forecasting Tool",
+        "description": "Build a Python tool to forecast financial performance for a startup.",
+        "difficulty": "Advanced"
+      }
+    ]
   }
 }
