@@ -7,7 +7,7 @@
       "Phase 1: Python & Math Basics": [
         {"name": "Python Basics - Coursera", "link": "https://www.coursera.org/learn/python-basics", "platform": "Coursera"},
         {"name": "Math for Machine Learning - Coursera", "link": "https://www.coursera.org/learn/mathematics-for-machine-learning-linear-algebra", "platform": "Coursera"},
-        {"name": "Python Essential Training", "link": "https://www.linkedin.com/learning/python-essential-training-2018", "platform": "LinkedIn Learning"}
+        {"name": "Python Essential Training", "link": "https://www.linkedin.com/learning/python-essential-training-2023", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Machine Learning Foundations": [
         {"name": "ML Basics - Coursera", "link": "https://www.coursera.org/learn/machine-learning", "platform": "Coursera"},
@@ -17,17 +17,17 @@
       "Phase 3: Deep Learning & NLP": [
         {"name": "Deep Learning Specialization - Coursera", "link": "https://www.coursera.org/specializations/deep-learning", "platform": "Coursera"},
         {"name": "Natural Language Processing - Coursera", "link": "https://www.coursera.org/learn/language-processing", "platform": "Coursera"},
-        {"name": "Deep Learning Foundations", "link": "https://www.linkedin.com/learning/deep-learning-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Deep Learning AI", "link": "https://www.coursera.org/learn/deep-learning-ai", "platform": "Coursera"}
       ],
       "Phase 4: Data Science & AI Tools": [
         {"name": "Data Analysis with Pandas - Udemy", "link": "https://www.udemy.com/course/python-for-data-analysis-pandas-numpy/", "platform": "Udemy"},
-        {"name": "Applied AI with Python", "link": "https://www.linkedin.com/learning/applied-ai-with-python", "platform": "LinkedIn Learning"},
-        {"name": "AI Tools for Productivity", "link": "https://www.linkedin.com/learning/artificial-intelligence-tools-and-concepts", "platform": "LinkedIn Learning"}
+        {"name": "Applied AI: Artificial Intelligence with Python", "link": "https://www.udemy.com/course/applied-ai-course/", "platform": "Udemy"},
+        {"name": "AI for Everyone", "link": "https://www.coursera.org/learn/ai-for-everyone", "platform": "Coursera"}
       ],
       "Phase 5: Portfolio & Job Prep": [
         {"name": "Portfolio Building - Udemy", "link": "https://www.udemy.com/course/build-a-portfolio-website-with-html-css-javascript/", "platform": "Udemy"},
         {"name": "AI Job Preparation - Coursera", "link": "https://www.coursera.org/learn/career-success", "platform": "Coursera"},
-        {"name": "Interview Preparation for AI", "link": "https://www.linkedin.com/learning/ai-interview-preparation", "platform": "LinkedIn Learning"},
+        {"name": "AI and Machine Learning Interview Prep", "link": "https://www.udemy.com/course/ai-machine-learning-interview-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -40,7 +40,7 @@
       "Phase 1: HTML, CSS, JavaScript Basics": [
         {"name": "HTML & CSS - Coursera", "link": "https://www.coursera.org/learn/html-css-javascript-for-web-developers", "platform": "Coursera"},
         {"name": "JavaScript Basics - FreeCodeCamp", "link": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", "platform": "FreeCodeCamp"},
-        {"name": "HTML, CSS, JS Essentials", "link": "https://www.linkedin.com/learning/html-css-javascript-essential-training", "platform": "LinkedIn Learning"}
+        {"name": "HTML, CSS, and JavaScript for Web Developers", "link": "https://www.coursera.org/learn/html-css-javascript-for-web-developers", "platform": "Coursera"}
       ],
       "Phase 2: Frontend Development": [
         {"name": "React JS Full Course - Udemy", "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/", "platform": "Udemy"},
@@ -55,11 +55,11 @@
       "Phase 4: Databases & APIs": [
         {"name": "MongoDB Tutorial - Udemy", "link": "https://www.udemy.com/course/mongodb-the-complete-developers-guide/", "platform": "Udemy"},
         {"name": "REST API Tutorial - Coursera", "link": "https://www.coursera.org/learn/building-restful-apis", "platform": "Coursera"},
-        {"name": "Databases for Developers", "link": "https://www.linkedin.com/learning/databases-for-developers", "platform": "LinkedIn Learning"}
+        {"name": "Databases and SQL for Data Science", "link": "https://www.coursera.org/learn/sql-for-data-science", "platform": "Coursera"}
       ],
       "Phase 5: Portfolio & Job Prep": [
         {"name": "Portfolio Website - Udemy", "link": "https://www.udemy.com/course/build-a-portfolio-website-with-html-css-javascript/", "platform": "Udemy"},
-        {"name": "Web Developer Interview Prep", "link": "https://www.linkedin.com/learning/web-developer-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Web Developer Bootcamp and Interview Prep", "link": "https://www.udemy.com/course/web-developer-bootcamp/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -77,20 +77,20 @@
       "Phase 2: Data Analysis & Visualization": [
         {"name": "Pandas Data Analysis - Udemy", "link": "https://www.udemy.com/course/python-for-data-analysis-pandas-numpy/", "platform": "Udemy"},
         {"name": "Data Visualization with Python - Coursera", "link": "https://www.coursera.org/learn/python-plotting", "platform": "Coursera"},
-        {"name": "Data Visualization", "link": "https://www.linkedin.com/learning/data-visualization-2", "platform": "LinkedIn Learning"}
+        {"name": "Data Visualization with Tableau", "link": "https://www.coursera.org/learn/data-visualization-tableau", "platform": "Coursera"}
       ],
       "Phase 3: Machine Learning Basics": [
         {"name": "ML with Python - Coursera", "link": "https://www.coursera.org/learn/python-machine-learning", "platform": "Coursera"},
         {"name": "Intro to Machine Learning - Kaggle", "link": "https://www.kaggle.com/learn/intro-to-machine-learning", "platform": "Kaggle"},
-        {"name": "Machine Learning Foundations", "link": "https://www.linkedin.com/learning/machine-learning-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Machine Learning with Python", "link": "https://www.coursera.org/learn/python-machine-learning", "platform": "Coursera"}
       ],
       "Phase 4: Advanced Topics": [
         {"name": "Time Series Analysis - Coursera", "link": "https://www.coursera.org/learn/practical-time-series-analysis", "platform": "Coursera"},
-        {"name": "Big Data Tools", "link": "https://www.linkedin.com/learning/big-data-tools-and-concepts", "platform": "LinkedIn Learning"}
+        {"name": "Big Data Analysis with Scala and Spark", "link": "https://www.coursera.org/learn/big-data-analysis", "platform": "Coursera"}
       ],
       "Phase 5: Portfolio & Job Prep": [
         {"name": "Data Science Portfolio Projects - Udemy", "link": "https://www.udemy.com/course/data-science-and-machine-learning-bootcamp-with-python/", "platform": "Udemy"},
-        {"name": "Data Science Interview Prep", "link": "https://www.linkedin.com/learning/data-science-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Data Science Interview Preparation", "link": "https://www.udemy.com/course/data-science-interview-preparation/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -102,22 +102,22 @@
     "phases": {
       "Phase 1: Networking & Security Basics": [
         {"name": "Networking Fundamentals - Cisco Networking Academy", "link": "https://www.netacad.com/courses/networking/networking-essentials", "platform": "Cisco Networking Academy"},
-        {"name": "Cybersecurity Basics", "link": "https://www.linkedin.com/learning/cybersecurity-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Introduction to Cybersecurity", "link": "https://www.coursera.org/learn/introduction-to-cybersecurity", "platform": "Coursera"}
       ],
       "Phase 2: Ethical Hacking": [
         {"name": "Ethical Hacking Full Course - Udemy", "link": "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/", "platform": "Udemy"},
-        {"name": "Ethical Hacking Foundations", "link": "https://www.linkedin.com/learning/ethical-hacking-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Ethical Hacking Essentials", "link": "https://www.coursera.org/learn/ethical-hacking-essentials", "platform": "Coursera"}
       ],
       "Phase 3: Advanced Security Tools": [
         {"name": "Metasploit Basics - Udemy", "link": "https://www.udemy.com/course/learn-metasploit-from-scratch/", "platform": "Udemy"},
-        {"name": "Penetration Testing", "link": "https://www.linkedin.com/learning/penetration-testing", "platform": "LinkedIn Learning"}
+        {"name": "Penetration Testing with Kali Linux", "link": "https://www.udemy.com/course/learn-penetration-testing/", "platform": "Udemy"}
       ],
       "Phase 4: Cloud & Network Security": [
         {"name": "Cloud Security Basics - Coursera", "link": "https://www.coursera.org/learn/cloud-security-fundamentals", "platform": "Coursera"},
-        {"name": "Cloud Security Foundations", "link": "https://www.linkedin.com/learning/cloud-security-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Cloud Security Fundamentals", "link": "https://www.coursera.org/learn/cloud-security-fundamentals", "platform": "Coursera"}
       ],
       "Phase 5: Career Prep & Internships": [
-        {"name": "Cybersecurity Interview Prep", "link": "https://www.linkedin.com/learning/cybersecurity-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Cybersecurity Career Prep", "link": "https://www.udemy.com/course/cybersecurity-career-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -129,22 +129,22 @@
     "phases": {
       "Phase 1: Cloud Basics": [
         {"name": "AWS Basics - AWS Skill Builder", "link": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials", "platform": "AWS Skill Builder"},
-        {"name": "Cloud Computing Foundations", "link": "https://www.linkedin.com/learning/cloud-computing-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Cloud Computing Basics", "link": "https://www.coursera.org/learn/cloud-computing-basics", "platform": "Coursera"}
       ],
       "Phase 2: AWS & Azure": [
         {"name": "AWS Full Course - AWS Skill Builder", "link": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/135/aws-technical-essentials", "platform": "AWS Skill Builder"},
-        {"name": "Azure Fundamentals", "link": "https://www.linkedin.com/learning/microsoft-azure-fundamentals", "platform": "LinkedIn Learning"}
+        {"name": "Microsoft Azure Fundamentals (AZ-900)", "link": "https://www.coursera.org/learn/microsoft-azure-fundamentals-az900", "platform": "Coursera"}
       ],
       "Phase 3: Google Cloud": [
         {"name": "Google Cloud Full Course - Google Cloud Training", "link": "https://cloud.google.com/training/courses/google-cloud-fundamentals-core-infrastructure", "platform": "Google Cloud Training"},
-        {"name": "Google Cloud Foundations", "link": "https://www.linkedin.com/learning/google-cloud-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Google Cloud Fundamentals: Core Infrastructure", "link": "https://www.coursera.org/learn/google-cloud-fundamentals-core-infrastructure", "platform": "Coursera"}
       ],
       "Phase 4: DevOps & Automation": [
         {"name": "DevOps Full Course - Udemy", "link": "https://www.udemy.com/course/devops-certification-training/", "platform": "Udemy"},
-        {"name": "DevOps Foundations", "link": "https://www.linkedin.com/learning/devops-foundations", "platform": "LinkedIn Learning"}
+        {"name": "DevOps on AWS", "link": "https://www.coursera.org/learn/devops-on-aws", "platform": "Coursera"}
       ],
       "Phase 5: Career Prep & Internships": [
-        {"name": "Cloud Computing Interview Prep", "link": "https://www.linkedin.com/learning/cloud-computing-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Cloud Computing Career Prep", "link": "https://www.udemy.com/course/cloud-computing-career-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -160,18 +160,18 @@
       ],
       "Phase 2: Business & Economics": [
         {"name": "Economics for Beginners - Khan Academy", "link": "https://www.khanacademy.org/economics-finance-domain/core-finance", "platform": "Khan Academy"},
-        {"name": "Business Fundamentals", "link": "https://www.linkedin.com/learning/business-fundamentals", "platform": "LinkedIn Learning"}
+        {"name": "Business Foundations", "link": "https://www.coursera.org/learn/business-foundations", "platform": "Coursera"}
       ],
       "Phase 3: Taxation & Auditing": [
         {"name": "Income Tax Basics - Udemy", "link": "https://www.udemy.com/course/income-tax-for-beginners/", "platform": "Udemy"},
-        {"name": "Auditing Foundations", "link": "https://www.linkedin.com/learning/auditing-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Auditing I: Conceptual Foundations", "link": "https://www.coursera.org/learn/auditing-conceptual-foundations", "platform": "Coursera"}
       ],
       "Phase 4: Excel & Business Tools": [
         {"name": "Excel for Beginners - Coursera", "link": "https://www.coursera.org/learn/excel-basics-data-analysis", "platform": "Coursera"},
         {"name": "Excel Essential Training", "link": "https://www.linkedin.com/learning/excel-essential-training-office-365", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
-        {"name": "Commerce Job Interview Prep", "link": "https://www.linkedin.com/learning/job-interview-tips-for-accounting-and-finance", "platform": "LinkedIn Learning"},
+        {"name": "Accounting and Finance Interview Prep", "link": "https://www.udemy.com/course/accounting-finance-interview-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -183,22 +183,22 @@
     "phases": {
       "Phase 1: Introduction to Law": [
         {"name": "Basics of Indian Law - edX", "link": "https://www.edx.org/learn/indian-law", "platform": "edX"},
-        {"name": "Legal Research Fundamentals", "link": "https://www.linkedin.com/learning/legal-research-fundamentals", "platform": "LinkedIn Learning"}
+        {"name": "Introduction to Legal Research", "link": "https://www.coursera.org/learn/legal-research", "platform": "Coursera"}
       ],
       "Phase 2: Constitutional & Criminal Law": [
         {"name": "Indian Constitution Basics - Coursera", "link": "https://www.coursera.org/learn/introduction-to-indian-constitution", "platform": "Coursera"},
-        {"name": "Criminal Law Basics", "link": "https://www.linkedin.com/learning/criminal-law-basics", "platform": "LinkedIn Learning"}
+        {"name": "Introduction to Criminal Law", "link": "https://www.edx.org/learn/criminal-law", "platform": "edX"}
       ],
       "Phase 3: Contract & Corporate Law": [
         {"name": "Contract Law Essentials - edX", "link": "https://www.edx.org/learn/contract-law/harvard-university-contract-law-from-trust-to-promise-to-contract", "platform": "edX"},
-        {"name": "Corporate Law Foundations", "link": "https://www.linkedin.com/learning/corporate-law-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Corporate & Commercial Law I", "link": "https://www.coursera.org/learn/corporate-commercial-law", "platform": "Coursera"}
       ],
       "Phase 4: Legal Writing & Advocacy": [
         {"name": "Legal Drafting Basics - Coursera", "link": "https://www.coursera.org/learn/legal-writing-drafting", "platform": "Coursera"},
-        {"name": "Legal Writing Skills", "link": "https://www.linkedin.com/learning/legal-writing-skills", "platform": "LinkedIn Learning"}
+        {"name": "Legal Writing and Drafting", "link": "https://www.coursera.org/learn/legal-writing-drafting", "platform": "Coursera"}
       ],
       "Phase 5: Career Prep & Internships": [
-        {"name": "Lawyer Career Guide", "link": "https://www.linkedin.com/learning/lawyer-career-guide", "platform": "LinkedIn Learning"},
+        {"name": "Legal Career Preparation", "link": "https://www.udemy.com/course/legal-career-preparation/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -218,14 +218,14 @@
       ],
       "Phase 3: Laboratory & Research Skills": [
         {"name": "Lab Safety & Procedures - Coursera", "link": "https://www.coursera.org/learn/chemical-safety", "platform": "Coursera"},
-        {"name": "Research Skills Foundations", "link": "https://www.linkedin.com/learning/research-skills-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Research Methods", "link": "https://www.coursera.org/learn/research-methods", "platform": "Coursera"}
       ],
       "Phase 4: Technical Tools & Software": [
         {"name": "Excel for Science Data - Coursera", "link": "https://www.coursera.org/learn/excel-data-analysis", "platform": "Coursera"},
-        {"name": "SPSS Statistics Essentials", "link": "https://www.linkedin.com/learning/spss-statistics-essential-training", "platform": "LinkedIn Learning"}
+        {"name": "Data Analysis with SPSS", "link": "https://www.udemy.com/course/spss-data-analysis/", "platform": "Udemy"}
       ],
       "Phase 5: Career Prep & Internships": [
-        {"name": "Science Career Opportunities", "link": "https://www.linkedin.com/learning/science-career-opportunities", "platform": "LinkedIn Learning"},
+        {"name": "Science Career Preparation", "link": "https://www.coursera.org/learn/science-career-preparation", "platform": "Coursera"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
@@ -237,22 +237,22 @@
     "phases": {
       "Phase 1: Business Management Fundamentals": [
         {"name": "Principles of Management - Coursera", "link": "https://www.coursera.org/learn/principles-of-management", "platform": "Coursera"},
-        {"name": "Business Analysis Foundations", "link": "https://www.linkedin.com/learning/business-analysis-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Business Analysis and Strategy", "link": "https://www.coursera.org/learn/business-analysis-strategy", "platform": "Coursera"}
       ],
       "Phase 2: Marketing & Sales": [
         {"name": "Digital Marketing Full Course - Coursera", "link": "https://www.coursera.org/specializations/digital-marketing", "platform": "Coursera"},
-        {"name": "Marketing Foundations", "link": "https://www.linkedin.com/learning/marketing-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Introduction to Marketing", "link": "https://www.coursera.org/learn/introduction-to-marketing", "platform": "Coursera"}
       ],
       "Phase 3: Finance & Operations": [
         {"name": "Corporate Finance Basics - Coursera", "link": "https://www.coursera.org/learn/corporate-finance-essentials", "platform": "Coursera"},
-        {"name": "Operations Management Foundations", "link": "https://www.linkedin.com/learning/operations-management-foundations", "platform": "LinkedIn Learning"}
+        {"name": "Operations Management", "link": "https://www.coursera.org/learn/operations-management", "platform": "Coursera"}
       ],
       "Phase 4: Leadership & Strategy": [
         {"name": "Leadership Skills - Coursera", "link": "https://www.coursera.org/learn/leadership-skills", "platform": "Coursera"},
-        {"name": "Strategic Thinking", "link": "https://www.linkedin.com/learning/strategic-thinking", "platform": "LinkedIn Learning"}
+        {"name": "Strategic Leadership and Management", "link": "https://www.coursera.org/learn/strategic-leadership", "platform": "Coursera"}
       ],
       "Phase 5: Career Prep & Internships": [
-        {"name": "MBA Job Preparation", "link": "https://www.linkedin.com/learning/mba-job-preparation", "platform": "LinkedIn Learning"},
+        {"name": "MBA Career Prep", "link": "https://www.udemy.com/course/mba-career-prep/", "platform": "Udemy"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
