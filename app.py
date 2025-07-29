@@ -1,58 +1,46 @@
 import streamlit as st
 import json
-import os
 
-# ----------------- Load Roadmap Data -----------------
-@st.cache_data
-def load_roadmap():
-    with open("roadmap_data.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+# Load the career roadmap data
+with open("roadmap_data.json", "r", encoding="utf-8") as file:
+    roadmap_data = json.load(file)
 
-roadmap_data = load_roadmap()
+# Extract the available careers from the JSON file
+available_careers = list(roadmap_data.keys())
 
-# ----------------- Session State -----------------
-if "language" not in st.session_state:
-    st.session_state.language = "English"
-if "career_interest" not in st.session_state:
-    st.session_state.career_interest = ""
-if "progress" not in st.session_state:
-    st.session_state.progress = {}
+# Page config
+st.set_page_config(page_title="YuvaPath - Career Guidance", layout="wide")
 
-# ----------------- App Title -----------------
-st.set_page_config(page_title="YuvaPath", page_icon="🎯", layout="wide")
-st.title("🎯 YuvaPath - Career Guidance for Every Youth in India")
+# App title
+st.title("🎯 YuvaPath - AI Career Guidance")
+st.write("Helping youth find the right career path with free resources & personalized roadmaps.")
 
-# ----------------- Onboarding -----------------
-st.subheader("🌐 Select Your Language")
-st.session_state.language = st.selectbox("Choose language", ["English", "Hindi", "Tamil", "Telugu"])
+# Language selection
+language = st.selectbox("🌐 Choose Language:", ["English", "Hindi", "Tamil", "Telugu"])
 
-st.subheader("📚 Education & Career Interest")
-education = st.selectbox("Education Level", ["High School", "Undergraduate", "Graduate", "Other"])
-st.session_state.career_interest = st.text_input("Your Career Interest (e.g., AI, Law, Medicine)")
+# User selects career from dropdown
+career_choice = st.selectbox("💼 Select Your Career Interest:", available_careers)
 
-if st.button("Generate My Roadmap"):
-    if st.session_state.career_interest.lower() in roadmap_data:
-        st.success(f"Roadmap for {st.session_state.career_interest} generated!")
-    else:
-        st.warning("We don't have a roadmap for that career yet.")
+# Display selected career details
+if career_choice:
+    career_data = roadmap_data[career_choice]
 
-# ----------------- Roadmap Display -----------------
-career = st.session_state.career_interest.lower()
-if career in roadmap_data:
-    info = roadmap_data[career]
-    st.header(f"📌 {info['title']}")
-    st.info(f"💰 Salary Range: {info['salary']} | ⏳ Duration: {info['duration']}")
+    st.subheader(f"📌 {career_data['title']}")
+    st.markdown(f"💰 **Expected Salary:** {career_data['salary']}")
+    st.markdown(f"⏳ **Learning Duration:** {career_data['duration']}")
 
-    for phase, courses in info["phases"].items():
-        with st.expander(phase):
-            for course in courses:
-                done = st.checkbox(course["name"], key=f"{phase}_{course['name']}")
-                if st.session_state.progress.get(course["name"]) != done:
-                    st.session_state.progress[course["name"]] = done
-                st.markdown(f"[📌 Open Course]({course['link']})")
+    st.markdown("---")
+    st.subheader("📚 Career Roadmap:")
 
-    # Progress bar
-    completed = sum(st.session_state.progress.values())
-    total = len(st.session_state.progress)
-    if total > 0:
-        st.progress(completed / total)
+    for phase, resources in career_data["phases"].items():
+        st.markdown(f"### 🔹 {phase}")
+        for resource in resources:
+            st.markdown(f"- [{resource['name']}]({resource['link']}) ({resource['platform']})")
+        st.markdown("")
+
+    st.markdown("---")
+    st.success("✅ Follow each phase step-by-step to reach your career goal!")
+
+# Footer
+st.markdown("---")
+st.markdown("💡 *YuvaPath is your personal mentor — Learn, Grow, and Succeed!*")
