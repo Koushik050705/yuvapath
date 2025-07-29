@@ -5,37 +5,151 @@
     "duration": "6–12 months",
     "phases": {
       "Phase 1: Python & Math Basics": [
-        {
-          "name": "Python Basics - CodeWithHarry",
-          "link": "https://youtube.com/playlist?list=PLu0W_9lII9ahR1blWXxgSlL2UO3s8x2xR",
-          "platform": "YouTube"
-        },
-        {
-          "name": "Math for ML - 3Blue1Brown",
-          "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
-          "platform": "YouTube"
-        }
+        {"name": "Python Basics - CodeWithHarry", "link": "https://youtube.com/playlist?list=PLu0W_9lII9ahR1blWXxgSlL2UO3s8x2xR", "platform": "YouTube"},
+        {"name": "Math for Machine Learning - 3Blue1Brown", "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi", "platform": "YouTube"},
+        {"name": "Python Essential Training", "link": "https://www.linkedin.com/learning/python-essential-training-2018", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Machine Learning Foundations": [
-        {
-          "name": "ML Basics - Krish Naik",
-          "link": "https://www.youtube.com/playlist?list=PLZoTAELRMXVP3nqmF_4l2t2c6Qe0Jt1br",
-          "platform": "YouTube"
-        }
+        {"name": "ML Basics - Krish Naik", "link": "https://www.youtube.com/playlist?list=PLZoTAELRMXVP3nqmF_4l2t2c6Qe0Jt1br", "platform": "YouTube"},
+        {"name": "Machine Learning Crash Course - Google", "link": "https://developers.google.com/machine-learning/crash-course", "platform": "Google"},
+        {"name": "Machine Learning with Python", "link": "https://www.linkedin.com/learning/machine-learning-with-python-2", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Deep Learning & NLP": [
-        {
-          "name": "Deep Learning - Deeplearning.ai",
-          "link": "https://www.youtube.com/@deeplearningai",
-          "platform": "YouTube"
-        }
+        {"name": "Deep Learning Specialization - Deeplearning.ai", "link": "https://www.youtube.com/@deeplearningai", "platform": "YouTube"},
+        {"name": "Natural Language Processing - Coursera", "link": "https://www.coursera.org/learn/language-processing", "platform": "Coursera"},
+        {"name": "Deep Learning Foundations", "link": "https://www.linkedin.com/learning/deep-learning-foundations", "platform": "LinkedIn Learning"}
       ],
-      "Phase 4: Portfolio & Job Prep": [
-        {
-          "name": "Portfolio Building - Tech With Tim",
-          "link": "https://www.youtube.com/watch?v=1u7Q6nkpJhg",
-          "platform": "YouTube"
-        }
+      "Phase 4: Data Science & AI Tools": [
+        {"name": "Data Analysis with Pandas - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=vmEHCJofslg", "platform": "YouTube"},
+        {"name": "Applied AI with Python", "link": "https://www.linkedin.com/learning/applied-ai-with-python", "platform": "LinkedIn Learning"},
+        {"name": "AI Tools for Productivity", "link": "https://www.linkedin.com/learning/artificial-intelligence-tools-and-concepts", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 5: Portfolio & Job Prep": [
+        {"name": "Portfolio Building - Tech With Tim", "link": "https://www.youtube.com/watch?v=1u7Q6nkpJhg", "platform": "YouTube"},
+        {"name": "AI Job Preparation - Krish Naik", "link": "https://www.youtube.com/watch?v=iCwMQJnKk2c", "platform": "YouTube"},
+        {"name": "Interview Preparation for AI", "link": "https://www.linkedin.com/learning/ai-interview-preparation", "platform": "LinkedIn Learning"},
+        {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+      ]
+    }
+  },
+
+  "web development": {
+    "title": "Web Development Career Roadmap",
+    "salary": "₹5–18 LPA",
+    "duration": "6–12 months",
+    "phases": {
+      "Phase 1: HTML, CSS, JavaScript Basics": [
+        {"name": "HTML & CSS - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=mU6anWqZJcc", "platform": "YouTube"},
+        {"name": "JavaScript Basics - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=PkZNo7MFNFg", "platform": "YouTube"},
+        {"name": "HTML, CSS, JS Essentials", "link": "https://www.linkedin.com/learning/html-css-and-javascript-essential-training", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 2: Frontend Development": [
+        {"name": "React JS Full Course - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=bMknfKXIFA8", "platform": "YouTube"},
+        {"name": "JavaScript Projects - Florin Pop", "link": "https://www.youtube.com/watch?v=3PHXvlpOkf4", "platform": "YouTube"},
+        {"name": "React Essential Training", "link": "https://www.linkedin.com/learning/react-js-essential-training", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 3: Backend Development": [
+        {"name": "Node.js Full Course - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=Oe421EPjeBE", "platform": "YouTube"},
+        {"name": "Express.js Crash Course - Traversy Media", "link": "https://www.youtube.com/watch?v=L72fhGm1tfE", "platform": "YouTube"},
+        {"name": "Node.js Essential Training", "link": "https://www.linkedin.com/learning/node-js-essential-training", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 4: Databases & APIs": [
+        {"name": "MongoDB Tutorial - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=ofme2o29ngU", "platform": "YouTube"},
+        {"name": "REST API Tutorial - Amigoscode", "link": "https://www.youtube.com/watch?v=lfL0brBVh6E", "platform": "YouTube"},
+        {"name": "Databases for Developers", "link": "https://www.linkedin.com/learning/databases-for-developers", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 5: Portfolio & Job Prep": [
+        {"name": "Portfolio Website - Kevin Powell", "link": "https://www.youtube.com/watch?v=T7PnWnTgusc", "platform": "YouTube"},
+        {"name": "Web Developer Interview Prep", "link": "https://www.linkedin.com/learning/web-developer-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+      ]
+    }
+  },
+
+  "data science": {
+    "title": "Data Science Career Roadmap",
+    "salary": "₹6–20 LPA",
+    "duration": "6–12 months",
+    "phases": {
+      "Phase 1: Python & Statistics": [
+        {"name": "Python for Data Science - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=LHBE6Q9XlzI", "platform": "YouTube"},
+        {"name": "Statistics for Data Science", "link": "https://www.youtube.com/watch?v=xxpc-HPKN28", "platform": "YouTube"},
+        {"name": "Statistics Foundations", "link": "https://www.linkedin.com/learning/statistics-foundations-1", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 2: Data Analysis & Visualization": [
+        {"name": "Pandas Data Analysis - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=vmEHCJofslg", "platform": "YouTube"},
+        {"name": "Matplotlib & Seaborn Visualization", "link": "https://www.youtube.com/watch?v=UB3DE5Bgfx4", "platform": "YouTube"},
+        {"name": "Data Visualization", "link": "https://www.linkedin.com/learning/data-visualization-2", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 3: Machine Learning Basics": [
+        {"name": "ML with Python - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=7eh4d6sabA0", "platform": "YouTube"},
+        {"name": "Intro to Machine Learning - Kaggle", "link": "https://www.kaggle.com/learn/intro-to-machine-learning", "platform": "Kaggle"},
+        {"name": "Machine Learning Foundations", "link": "https://www.linkedin.com/learning/machine-learning-foundations", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 4: Advanced Topics": [
+        {"name": "Time Series Analysis", "link": "https://www.youtube.com/watch?v=9Z8xC1xKxSs", "platform": "YouTube"},
+        {"name": "Big Data Tools", "link": "https://www.linkedin.com/learning/big-data-tools-and-concepts", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 5: Portfolio & Job Prep": [
+        {"name": "Data Science Portfolio Projects", "link": "https://www.youtube.com/watch?v=Q1v0o2D5GBc", "platform": "YouTube"},
+        {"name": "Data Science Interview Prep", "link": "https://www.linkedin.com/learning/data-science-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+      ]
+    }
+  },
+
+  "cybersecurity": {
+    "title": "Cybersecurity Career Roadmap",
+    "salary": "₹7–20 LPA",
+    "duration": "6–12 months",
+    "phases": {
+      "Phase 1: Cybersecurity Basics": [
+        {"name": "Cybersecurity Basics - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=inWWhr5tnEA", "platform": "YouTube"},
+        {"name": "Fundamentals of Cybersecurity", "link": "https://www.linkedin.com/learning/fundamentals-of-cybersecurity", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 2: Networking Fundamentals": [
+        {"name": "Computer Networking Full Course", "link": "https://www.youtube.com/watch?v=qiQR5rTSshw", "platform": "YouTube"},
+        {"name": "Networking Foundations", "link": "https://www.linkedin.com/learning/networking-foundations", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 3: Ethical Hacking": [
+        {"name": "Ethical Hacking Full Course", "link": "https://www.youtube.com/watch?v=3Kq1MIfTWCE", "platform": "YouTube"},
+        {"name": "Learning Ethical Hacking", "link": "https://www.linkedin.com/learning/learning-ethical-hacking", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 4: Security Tools & Practices": [
+        {"name": "Wireshark Tutorial", "link": "https://www.youtube.com/watch?v=TkCSr30UojM", "platform": "YouTube"},
+        {"name": "Security Tools Overview", "link": "https://www.linkedin.com/learning/security-tools-overview", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 5: Job Prep & Certifications": [
+        {"name": "Cybersecurity Interview Prep", "link": "https://www.linkedin.com/learning/cybersecurity-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+      ]
+    }
+  },
+
+  "cloud computing": {
+    "title": "Cloud Computing Career Roadmap",
+    "salary": "₹7–22 LPA",
+    "duration": "6–12 months",
+    "phases": {
+      "Phase 1: Cloud Basics": [
+        {"name": "Cloud Computing Basics - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=2LaAJq1lB1Q", "platform": "YouTube"},
+        {"name": "Cloud Computing Foundations", "link": "https://www.linkedin.com/learning/cloud-computing-foundations", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 2: AWS Fundamentals": [
+        {"name": "AWS Full Course", "link": "https://www.youtube.com/watch?v=Ia-UEYYR44s", "platform": "YouTube"},
+        {"name": "AWS for Beginners", "link": "https://www.linkedin.com/learning/aws-for-beginners", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 3: Azure & Google Cloud": [
+        {"name": "Microsoft Azure Full Course", "link": "https://www.youtube.com/watch?v=th4OBktqK1I", "platform": "YouTube"},
+        {"name": "Google Cloud Fundamentals", "link": "https://www.linkedin.com/learning/google-cloud-fundamentals", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 4: DevOps & Cloud Tools": [
+        {"name": "DevOps Tools Tutorial", "link": "https://www.youtube.com/watch?v=0yWAtQ6wYNM", "platform": "YouTube"},
+        {"name": "DevOps Foundations", "link": "https://www.linkedin.com/learning/devops-foundations", "platform": "LinkedIn Learning"}
+      ],
+      "Phase 5: Job Prep & Certifications": [
+        {"name": "Cloud Computing Interview Prep", "link": "https://www.linkedin.com/learning/cloud-computing-interview-prep", "platform": "LinkedIn Learning"},
+        {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
   }
