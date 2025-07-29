@@ -4,6 +4,7 @@ import pandas as pd
 import io
 from streamlit_option_menu import option_menu
 import speech_recognition as sr
+import re
 
 # Initialize session state for authentication
 if 'authenticated' not in st.session_state:
@@ -148,15 +149,15 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Simple user database for demo purposes (in production, use a secure database)
-USER_DB = {
-    "user1@example.com": "password1",
-    "user2@example.com": "password2"
-}
+# Sign-in functionality with email validation
+def is_valid_email(email):
+    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    return re.match(pattern, email) is not None
 
-# Sign-in functionality
 def authenticate(email, password):
-    return email in USER_DB and USER_DB[email] == password
+    # Allow any valid email with non-empty password for demo purposes
+    # In production, integrate with a secure backend authentication system
+    return is_valid_email(email) and len(password) >= 6
 
 # Sidebar with navigation menu
 with st.sidebar:
@@ -186,7 +187,7 @@ with st.sidebar:
                     st.session_state.email = email
                     st.success(f"Welcome, {email}! You are now signed in.")
                 else:
-                    st.error("Invalid email or password.")
+                    st.error("Invalid email or password (password must be at least 6 characters).")
         else:
             st.markdown(f"<p class='glow-text'>Welcome, {st.session_state.email}!</p>", unsafe_allow_html=True)
             if st.button("Sign Out"):
