@@ -96,61 +96,173 @@
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
     }
-  },
+  }
+}
 
-  "cybersecurity": {
-    "title": "Cybersecurity Career Roadmap",
-    "salary": "₹7–20 LPA",
-    "duration": "6–12 months",
-    "phases": {
-      "Phase 1: Cybersecurity Basics": [
-        {"name": "Cybersecurity Basics - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=inWWhr5tnEA", "platform": "YouTube"},
-        {"name": "Fundamentals of Cybersecurity", "link": "https://www.linkedin.com/learning/fundamentals-of-cybersecurity", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 2: Networking Fundamentals": [
-        {"name": "Computer Networking Full Course", "link": "https://www.youtube.com/watch?v=qiQR5rTSshw", "platform": "YouTube"},
-        {"name": "Networking Foundations", "link": "https://www.linkedin.com/learning/networking-foundations", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 3: Ethical Hacking": [
-        {"name": "Ethical Hacking Full Course", "link": "https://www.youtube.com/watch?v=3Kq1MIfTWCE", "platform": "YouTube"},
-        {"name": "Learning Ethical Hacking", "link": "https://www.linkedin.com/learning/learning-ethical-hacking", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 4: Security Tools & Practices": [
-        {"name": "Wireshark Tutorial", "link": "https://www.youtube.com/watch?v=TkCSr30UojM", "platform": "YouTube"},
-        {"name": "Security Tools Overview", "link": "https://www.linkedin.com/learning/security-tools-overview", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 5: Job Prep & Certifications": [
-        {"name": "Cybersecurity Interview Prep", "link": "https://www.linkedin.com/learning/cybersecurity-interview-prep", "platform": "LinkedIn Learning"},
-        {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
-      ]
-    }
-  },
+"cybersecurity": {
+  "title": "Cybersecurity Career Roadmap",
+  "salary": "₹6–22 LPA",
+  "duration": "6–12 months",
+  "phases": {
+    "Phase 1: Networking & Security Basics": [
+      {"name": "Networking Fundamentals - Cisco", "link": "https://www.youtube.com/watch?v=qiQR5rTSshw", "platform": "YouTube"},
+      {"name": "Cybersecurity Basics", "link": "https://www.linkedin.com/learning/cybersecurity-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 2: Ethical Hacking": [
+      {"name": "Ethical Hacking Full Course", "link": "https://www.youtube.com/watch?v=fNzpcB7ODxQ", "platform": "YouTube"},
+      {"name": "Ethical Hacking Foundations", "link": "https://www.linkedin.com/learning/ethical-hacking-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 3: Advanced Security Tools": [
+      {"name": "Metasploit Basics", "link": "https://www.youtube.com/watch?v=8T0sxjrpLwM", "platform": "YouTube"},
+      {"name": "Penetration Testing", "link": "https://www.linkedin.com/learning/penetration-testing", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 4: Cloud & Network Security": [
+      {"name": "Cloud Security Basics", "link": "https://www.youtube.com/watch?v=vBVLrj_G3Bo", "platform": "YouTube"},
+      {"name": "Cloud Security Foundations", "link": "https://www.linkedin.com/learning/cloud-security-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 5: Career Prep & Internships": [
+      {"name": "Cybersecurity Interview Prep", "link": "https://www.linkedin.com/learning/cybersecurity-interview-prep", "platform": "LinkedIn Learning"},
+      {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+    ]
+  }
+},
 
-  "cloud computing": {
-    "title": "Cloud Computing Career Roadmap",
-    "salary": "₹7–22 LPA",
-    "duration": "6–12 months",
-    "phases": {
-      "Phase 1: Cloud Basics": [
-        {"name": "Cloud Computing Basics - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=2LaAJq1lB1Q", "platform": "YouTube"},
-        {"name": "Cloud Computing Foundations", "link": "https://www.linkedin.com/learning/cloud-computing-foundations", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 2: AWS Fundamentals": [
-        {"name": "AWS Full Course", "link": "https://www.youtube.com/watch?v=Ia-UEYYR44s", "platform": "YouTube"},
-        {"name": "AWS for Beginners", "link": "https://www.linkedin.com/learning/aws-for-beginners", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 3: Azure & Google Cloud": [
-        {"name": "Microsoft Azure Full Course", "link": "https://www.youtube.com/watch?v=th4OBktqK1I", "platform": "YouTube"},
-        {"name": "Google Cloud Fundamentals", "link": "https://www.linkedin.com/learning/google-cloud-fundamentals", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 4: DevOps & Cloud Tools": [
-        {"name": "DevOps Tools Tutorial", "link": "https://www.youtube.com/watch?v=0yWAtQ6wYNM", "platform": "YouTube"},
-        {"name": "DevOps Foundations", "link": "https://www.linkedin.com/learning/devops-foundations", "platform": "LinkedIn Learning"}
-      ],
-      "Phase 5: Job Prep & Certifications": [
-        {"name": "Cloud Computing Interview Prep", "link": "https://www.linkedin.com/learning/cloud-computing-interview-prep", "platform": "LinkedIn Learning"},
-        {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
-      ]
-    }
+"cloud computing": {
+  "title": "Cloud Computing Career Roadmap",
+  "salary": "₹7–25 LPA",
+  "duration": "6–12 months",
+  "phases": {
+    "Phase 1: Cloud Basics": [
+      {"name": "AWS Basics", "link": "https://www.youtube.com/watch?v=ubCNZRNjhyo", "platform": "YouTube"},
+      {"name": "Cloud Computing Foundations", "link": "https://www.linkedin.com/learning/cloud-computing-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 2: AWS & Azure": [
+      {"name": "AWS Full Course", "link": "https://www.youtube.com/watch?v=ulprqHHWlng", "platform": "YouTube"},
+      {"name": "Azure Fundamentals", "link": "https://www.linkedin.com/learning/microsoft-azure-fundamentals", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 3: Google Cloud": [
+      {"name": "Google Cloud Full Course", "link": "https://www.youtube.com/watch?v=85f4LtC0SLo", "platform": "YouTube"},
+      {"name": "Google Cloud Foundations", "link": "https://www.linkedin.com/learning/google-cloud-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 4: DevOps & Automation": [
+      {"name": "DevOps Full Course", "link": "https://www.youtube.com/watch?v=j5Zsa_eOXeY", "platform": "YouTube"},
+      {"name": "DevOps Foundations", "link": "https://www.linkedin.com/learning/devops-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 5: Career Prep & Internships": [
+      {"name": "Cloud Computing Interview Prep", "link": "https://www.linkedin.com/learning/cloud-computing-interview-prep", "platform": "LinkedIn Learning"},
+      {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+    ]
+  }
+},
+
+"bcom": {
+  "title": "B.Com (Bachelor of Commerce) Career Roadmap",
+  "salary": "₹4–12 LPA",
+  "duration": "3–6 months (Skill Building)",
+  "phases": {
+    "Phase 1: Accounting & Finance Basics": [
+      {"name": "Accounting Basics - Accounting Stuff", "link": "https://www.youtube.com/watch?v=H4z0x7j9pA8", "platform": "YouTube"},
+      {"name": "Financial Accounting Foundations", "link": "https://www.linkedin.com/learning/financial-accounting-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 2: Business & Economics": [
+      {"name": "Economics for Beginners", "link": "https://www.youtube.com/watch?v=3ez10ADR_gM", "platform": "YouTube"},
+      {"name": "Business Fundamentals", "link": "https://www.linkedin.com/learning/business-fundamentals", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 3: Taxation & Auditing": [
+      {"name": "Income Tax Basics", "link": "https://www.youtube.com/watch?v=ZJ_TySvGBaw", "platform": "YouTube"},
+      {"name": "Auditing Foundations", "link": "https://www.linkedin.com/learning/auditing-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 4: Excel & Business Tools": [
+      {"name": "Excel for Beginners", "link": "https://www.youtube.com/watch?v=Vl0H-qTclOg", "platform": "YouTube"},
+      {"name": "Excel Essential Training", "link": "https://www.linkedin.com/learning/excel-essential-training-office-365", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 5: Career Prep & Internships": [
+      {"name": "Commerce Job Interview Prep", "link": "https://www.linkedin.com/learning/job-interview-tips-for-accounting-and-finance", "platform": "LinkedIn Learning"},
+      {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+    ]
+  }
+},
+
+"law": {
+  "title": "Law Career Roadmap",
+  "salary": "₹5–15 LPA",
+  "duration": "6–12 months (Skill Building)",
+  "phases": {
+    "Phase 1: Introduction to Law": [
+      {"name": "Basics of Indian Law", "link": "https://www.youtube.com/watch?v=vEFOe5p0QnI", "platform": "YouTube"},
+      {"name": "Legal Research Fundamentals", "link": "https://www.linkedin.com/learning/legal-research-fundamentals", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 2: Constitutional & Criminal Law": [
+      {"name": "Indian Constitution Basics", "link": "https://www.youtube.com/watch?v=Hf3r6DphZCg", "platform": "YouTube"},
+      {"name": "Criminal Law Basics", "link": "https://www.linkedin.com/learning/criminal-law-basics", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 3: Contract & Corporate Law": [
+      {"name": "Contract Law Essentials", "link": "https://www.youtube.com/watch?v=9J1_rCPwX_c", "platform": "YouTube"},
+      {"name": "Corporate Law Foundations", "link": "https://www.linkedin.com/learning/corporate-law-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 4: Legal Writing & Advocacy": [
+      {"name": "Legal Drafting Basics", "link": "https://www.youtube.com/watch?v=aUg8AE8jTZo", "platform": "YouTube"},
+      {"name": "Legal Writing Skills", "link": "https://www.linkedin.com/learning/legal-writing-skills", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 5: Career Prep & Internships": [
+      {"name": "Lawyer Career Guide", "link": "https://www.linkedin.com/learning/lawyer-career-guide", "platform": "LinkedIn Learning"},
+      {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+    ]
+  }
+},
+
+"bsc": {
+  "title": "B.Sc (Bachelor of Science) Career Roadmap",
+  "salary": "₹4–10 LPA",
+  "duration": "3–6 months (Skill Building)",
+  "phases": {
+    "Phase 1: Science Fundamentals": [
+      {"name": "Basic Physics - CrashCourse", "link": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtOfse2ncvffeelTrqvHR8kq", "platform": "YouTube"},
+      {"name": "Basic Biology - CrashCourse", "link": "https://www.youtube.com/playlist?list=PL3EED4C1D684D3ADF", "platform": "YouTube"}
+    ],
+    "Phase 2: Mathematics & Statistics": [
+      {"name": "Mathematics for Science", "link": "https://www.youtube.com/watch?v=TKJ4RdhyB5Y", "platform": "YouTube"},
+      {"name": "Statistics Foundations", "link": "https://www.linkedin.com/learning/statistics-foundations-1", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 3: Laboratory & Research Skills": [
+      {"name": "Lab Safety & Procedures", "link": "https://www.youtube.com/watch?v=K3E1n2bS8Dc", "platform": "YouTube"},
+      {"name": "Research Skills Foundations", "link": "https://www.linkedin.com/learning/research-skills-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 4: Technical Tools & Software": [
+      {"name": "Excel for Science Data", "link": "https://www.youtube.com/watch?v=Vl0H-qTclOg", "platform": "YouTube"},
+      {"name": "SPSS Statistics Essentials", "link": "https://www.linkedin.com/learning/spss-statistics-essential-training", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 5: Career Prep & Internships": [
+      {"name": "Science Career Opportunities", "link": "https://www.linkedin.com/learning/science-career-opportunities", "platform": "LinkedIn Learning"},
+      {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+    ]
+  }
+},
+
+"mba": {
+  "title": "MBA (Master of Business Administration) Career Roadmap",
+  "salary": "₹8–30 LPA",
+  "duration": "6–12 months (Skill Building)",
+  "phases": {
+    "Phase 1: Business Management Fundamentals": [
+      {"name": "Principles of Management", "link": "https://www.youtube.com/watch?v=3Z3bt3n1pR0", "platform": "YouTube"},
+      {"name": "Business Analysis Foundations", "link": "https://www.linkedin.com/learning/business-analysis-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 2: Marketing & Sales": [
+      {"name": "Digital Marketing Full Course", "link": "https://www.youtube.com/watch?v=nU-IIXBWlS4", "platform": "YouTube"},
+      {"name": "Marketing Foundations", "link": "https://www.linkedin.com/learning/marketing-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 3: Finance & Operations": [
+      {"name": "Corporate Finance Basics", "link": "https://www.youtube.com/watch?v=2HCpN_6FqUA", "platform": "YouTube"},
+      {"name": "Operations Management Foundations", "link": "https://www.linkedin.com/learning/operations-management-foundations", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 4: Leadership & Strategy": [
+      {"name": "Leadership Skills", "link": "https://www.youtube.com/watch?v=jqU3uaRgQyI", "platform": "YouTube"},
+      {"name": "Strategic Thinking", "link": "https://www.linkedin.com/learning/strategic-thinking", "platform": "LinkedIn Learning"}
+    ],
+    "Phase 5: Career Prep & Internships": [
+      {"name": "MBA Job Preparation", "link": "https://www.linkedin.com/learning/mba-job-preparation", "platform": "LinkedIn Learning"},
+      {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
+    ]
   }
 }
