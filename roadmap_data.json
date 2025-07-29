@@ -38,7 +38,7 @@
     "duration": "6–12 months",
     "phases": {
       "Phase 1: HTML, CSS, JavaScript Basics": [
-        {"name": "HTML & CSS - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=8gNrZ4l3W8o", "platform": "YouTube"},
+        {"name": "HTML & CSS - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=G3e-cpL7ofc", "platform": "YouTube"},
         {"name": "JavaScript Basics - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=PkZNo7MFNFg", "platform": "YouTube"},
         {"name": "HTML, CSS, JS Essentials", "link": "https://www.linkedin.com/learning/html-css-and-javascript-essential-training", "platform": "LinkedIn Learning"}
       ],
@@ -71,12 +71,12 @@
     "phases": {
       "Phase 1: Python & Statistics": [
         {"name": "Python for Data Science - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=LHBE6Q9XlzI", "platform": "YouTube"},
-        {"name": "Statistics for Data Science", "link": "https://www.youtube.com/watch?v=xxpc-HPKN28", "platform": "YouTube"},
+        {"name": "Statistics for Data Science - StatQuest", "link": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsCd", "platform": "YouTube"},
         {"name": "Statistics Foundations", "link": "https://www.linkedin.com/learning/statistics-foundations-1", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Data Analysis & Visualization": [
         {"name": "Pandas Data Analysis - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=ZyhVh-qRZPA", "platform": "YouTube"},
-        {"name": "Matplotlib & Seaborn Visualization", "link": "https://www.youtube.com/watch?v=HolAz2bHVsI", "platform": "YouTube"},
+        {"name": "Matplotlib & Seaborn Visualization - sentdex", "link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDf0O2DWwLZBf1PIVdBRg3Qy", "platform": "YouTube"},
         {"name": "Data Visualization", "link": "https://www.linkedin.com/learning/data-visualization-2", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Machine Learning Basics": [
@@ -85,11 +85,11 @@
         {"name": "Machine Learning Foundations", "link": "https://www.linkedin.com/learning/machine-learning-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Advanced Topics": [
-        {"name": "Time Series Analysis", "link": "https://www.youtube.com/watch?v=Prpu_PzMXA8", "platform": "YouTube"},
+        {"name": "Time Series Analysis - StatQuest", "link": "https://www.youtube.com/playlist?list=PLblh5JKOoLUJUNlfU2wFpd7ulN4cCrD9d", "platform": "YouTube"},
         {"name": "Big Data Tools", "link": "https://www.linkedin.com/learning/big-data-tools-and-concepts", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Portfolio & Job Prep": [
-        {"name": "Data Science Portfolio Projects", "link": "https://www.youtube.com/watch?v=r67pfdZ2xSg", "platform": "YouTube"},
+        {"name": "Data Science Portfolio Projects - Tech With Tim", "link": "https://www.youtube.com/watch?v=r67pfdZ2xSg", "platform": "YouTube"},
         {"name": "Data Science Interview Prep", "link": "https://www.linkedin.com/learning/data-science-interview-prep", "platform": "LinkedIn Learning"},
         {"name": "Internship Opportunities", "link": "https://trainings.internshala.com/", "platform": "Internshala"}
       ]
@@ -101,19 +101,19 @@
     "duration": "6–12 months",
     "phases": {
       "Phase 1: Networking & Security Basics": [
-        {"name": "Networking Fundamentals - Cisco", "link": "https://www.youtube.com/watch?v=8G6vG6uB2gQ", "platform": "YouTube"},
+        {"name": "Networking Fundamentals - NetworkChuck", "link": "https://www.youtube.com/playlist?list=PL6B7E7FD76B3B4167", "platform": "YouTube"},
         {"name": "Cybersecurity Basics", "link": "https://www.linkedin.com/learning/cybersecurity-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Ethical Hacking": [
-        {"name": "Ethical Hacking Full Course", "link": "https://www.youtube.com/watch?v=3Kq1MIfTWCE", "platform": "YouTube"},
+        {"name": "Ethical Hacking Full Course - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=3Kq1MIfTWCE", "platform": "YouTube"},
         {"name": "Ethical Hacking Foundations", "link": "https://www.linkedin.com/learning/ethical-hacking-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Advanced Security Tools": [
-        {"name": "Metasploit Basics", "link": "https://www.youtube.com/watch?v=O-ew1lFwzsg", "platform": "YouTube"},
+        {"name": "Metasploit Basics - Hackersploit", "link": "https://www.youtube.com/playlist?list=PLBf0sEs6zoVdi5COL8_3N4A0FR6jE5PDD", "platform": "YouTube"},
         {"name": "Penetration Testing", "link": "https://www.linkedin.com/learning/penetration-testing", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Cloud & Network Security": [
-        {"name": "Cloud Security Basics", "link": "https://www.youtube.com/watch?v=0W_8fP0bKN0", "platform": "YouTube"},
+        {"name": "Cloud Security Basics - Simplilearn", "link": "https://www.youtube.com/watch?v=0W_8fP0bKN0", "platform": "YouTube"},
         {"name": "Cloud Security Foundations", "link": "https://www.linkedin.com/learning/cloud-security-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
@@ -128,19 +128,19 @@
     "duration": "6–12 months",
     "phases": {
       "Phase 1: Cloud Basics": [
-        {"name": "AWS Basics", "link": "https://www.youtube.com/watch?v=k1RI5locZE4", "platform": "YouTube"},
+        {"name": "AWS Basics - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=k1RI5locZE4", "platform": "YouTube"},
         {"name": "Cloud Computing Foundations", "link": "https://www.linkedin.com/learning/cloud-computing-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: AWS & Azure": [
-        {"name": "AWS Full Course", "link": "https://www.youtube.com/watch?v=JIbIYCMb1es", "platform": "YouTube"},
+        {"name": "AWS Full Course - Simplilearn", "link": "https://www.youtube.com/watch?v=JIbIYCMb1es", "platform": "YouTube"},
         {"name": "Azure Fundamentals", "link": "https://www.linkedin.com/learning/microsoft-azure-fundamentals", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Google Cloud": [
-        {"name": "Google Cloud Full Course", "link": "https://www.youtube.com/watch?v=1y0-IfRW114", "platform": "YouTube"},
+        {"name": "Google Cloud Full Course - FreeCodeCamp", "link": "https://www.youtube.com/watch?v=1y0-IfRW114", "platform": "YouTube"},
         {"name": "Google Cloud Foundations", "link": "https://www.linkedin.com/learning/google-cloud-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: DevOps & Automation": [
-        {"name": "DevOps Full Course", "link": "https://www.youtube.com/watch?v=Wvf0mBNGjXY", "platform": "YouTube"},
+        {"name": "DevOps Full Course - TechWorld with Nana", "link": "https://www.youtube.com/watch?v=Wvf0mBNGjXY", "platform": "YouTube"},
         {"name": "DevOps Foundations", "link": "https://www.linkedin.com/learning/devops-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
@@ -159,15 +159,15 @@
         {"name": "Financial Accounting Foundations", "link": "https://www.linkedin.com/learning/financial-accounting-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Business & Economics": [
-        {"name": "Economics for Beginners", "link": "https://www.youtube.com/watch?v=VJkG7kA3bEA", "platform": "YouTube"},
+        {"name": "Economics for Beginners - CrashCourse", "link": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtPNZwz5_o_5uirJCA9NKU", "platform": "YouTube"},
         {"name": "Business Fundamentals", "link": "https://www.linkedin.com/learning/business-fundamentals", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Taxation & Auditing": [
-        {"name": "Income Tax Basics", "link": "https://www.youtube.com/watch?v=6A6fUcDmoEs", "platform": "YouTube"},
+        {"name": "Income Tax Basics - CA Guru", "link": "https://www.youtube.com/watch?v=6A6fUcDmoEs", "platform": "YouTube"},
         {"name": "Auditing Foundations", "link": "https://www.linkedin.com/learning/auditing-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Excel & Business Tools": [
-        {"name": "Excel for Beginners", "link": "https://www.youtube.com/watch?v=rwbho0CgEAE", "platform": "YouTube"},
+        {"name": "Excel for Beginners - Kevin Stratvert", "link": "https://www.youtube.com/watch?v=rwbho0CgEAE", "platform": "YouTube"},
         {"name": "Excel Essential Training", "link": "https://www.linkedin.com/learning/excel-essential-training-office-365", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
@@ -182,19 +182,19 @@
     "duration": "6–12 months (Skill Building)",
     "phases": {
       "Phase 1: Introduction to Law": [
-        {"name": "Basics of Indian Law", "link": "https://www.youtube.com/watch?v=8G6vG6uB2gQ", "platform": "YouTube"},
+        {"name": "Basics of Indian Law - Finology Legal", "link": "https://www.youtube.com/playlist?list=PLld2J4jQ83mG_99rM0AaG-VlcS7lMpj2O", "platform": "YouTube"},
         {"name": "Legal Research Fundamentals", "link": "https://www.linkedin.com/learning/legal-research-fundamentals", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Constitutional & Criminal Law": [
-        {"name": "Indian Constitution Basics", "link": "https://www.youtube.com/watch?v=0L5fCArdMWE", "platform": "YouTube"},
+        {"name": "Indian Constitution Basics - Unacademy", "link": "https://www.youtube.com/watch?v=0L5fCArdMWE", "platform": "YouTube"},
         {"name": "Criminal Law Basics", "link": "https://www.linkedin.com/learning/criminal-law-basics", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Contract & Corporate Law": [
-        {"name": "Contract Law Essentials", "link": "https://www.youtube.com/watch?v=KVpq6FBbHu8", "platform": "YouTube"},
+        {"name": "Contract Law Essentials - The Law Simplified", "link": "https://www.youtube.com/playlist?list=PL314742C2D8D1C3A1", "platform": "YouTube"},
         {"name": "Corporate Law Foundations", "link": "https://www.linkedin.com/learning/corporate-law-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Legal Writing & Advocacy": [
-        {"name": "Legal Drafting Basics", "link": "https://www.youtube.com/watch?v=2XbEk-7Ao6U", "platform": "YouTube"},
+        {"name": "Legal Drafting Basics - Finology Legal", "link": "https://www.youtube.com/watch?v=2XbEk-7Ao6U", "platform": "YouTube"},
         {"name": "Legal Writing Skills", "link": "https://www.linkedin.com/learning/legal-writing-skills", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
@@ -213,15 +213,15 @@
         {"name": "Basic Biology - CrashCourse", "link": "https://www.youtube.com/playlist?list=PL3EED4C1D684D3ADF", "platform": "YouTube"}
       ],
       "Phase 2: Mathematics & Statistics": [
-        {"name": "Mathematics for Science", "link": "https://www.youtube.com/watch?v=fNK0fGvkH0M", "platform": "YouTube"},
+        {"name": "Mathematics for Science - Professor Leonard", "link": "https://www.youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeL4il0C7j_", "platform": "YouTube"},
         {"name": "Statistics Foundations", "link": "https://www.linkedin.com/learning/statistics-foundations-1", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Laboratory & Research Skills": [
-        {"name": "Lab Safety & Procedures", "link": "https://www.youtube.com/watch?v=VRWRmIEHr3A", "platform": "YouTube"},
+        {"name": "Lab Safety & Procedures - Amoeba Sisters", "link": "https://www.youtube.com/watch?v=VRWRmIEHr3A", "platform": "YouTube"},
         {"name": "Research Skills Foundations", "link": "https://www.linkedin.com/learning/research-skills-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Technical Tools & Software": [
-        {"name": "Excel for Science Data", "link": "https://www.youtube.com/watch?v=rwbho0CgEAE", "platform": "YouTube"},
+        {"name": "Excel for Science Data - Kevin Stratvert", "link": "https://www.youtube.com/watch?v=rwbho0CgEAE", "platform": "YouTube"},
         {"name": "SPSS Statistics Essentials", "link": "https://www.linkedin.com/learning/spss-statistics-essential-training", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
@@ -236,19 +236,19 @@
     "duration": "6–12 months (Skill Building)",
     "phases": {
       "Phase 1: Business Management Fundamentals": [
-        {"name": "Principles of Management", "link": "https://www.youtube.com/watch?v=5U8jX3mxmNY", "platform": "YouTube"},
+        {"name": "Principles of Management - Educationleaves", "link": "https://www.youtube.com/watch?v=5U8jX3mxmNY", "platform": "YouTube"},
         {"name": "Business Analysis Foundations", "link": "https://www.linkedin.com/learning/business-analysis-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 2: Marketing & Sales": [
-        {"name": "Digital Marketing Full Course", "link": "https://www.youtube.com/watch?v=D_43hw1S04c", "platform": "YouTube"},
+        {"name": "Digital Marketing Full Course - Simplilearn", "link": "https://www.youtube.com/watch?v=D_43hw1S04c", "platform": "YouTube"},
         {"name": "Marketing Foundations", "link": "https://www.linkedin.com/learning/marketing-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 3: Finance & Operations": [
-        {"name": "Corporate Finance Basics", "link": "https://www.youtube.com/watch?v=v4R6AZkC3uM", "platform": "YouTube"},
+        {"name": "Corporate Finance Basics - Corporate Finance Institute", "link": "https://www.youtube.com/watch?v=v4R6AZkC3uM", "platform": "YouTube"},
         {"name": "Operations Management Foundations", "link": "https://www.linkedin.com/learning/operations-management-foundations", "platform": "LinkedIn Learning"}
       ],
       "Phase 4: Leadership & Strategy": [
-        {"name": "Leadership Skills", "link": "https://www.youtube.com/watch?v=6SNDHRf8wyQ", "platform": "YouTube"},
+        {"name": "Leadership Skills - TED-Ed", "link": "https://www.youtube.com/watch?v=6SNDHRf8wyQ", "platform": "YouTube"},
         {"name": "Strategic Thinking", "link": "https://www.linkedin.com/learning/strategic-thinking", "platform": "LinkedIn Learning"}
       ],
       "Phase 5: Career Prep & Internships": [
