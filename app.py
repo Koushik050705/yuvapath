@@ -21,130 +21,125 @@ available_careers = list(roadmap_data.keys())
 # Set page configuration
 st.set_page_config(
     page_title="YuvaPath - Career Guidance",
-    page_icon="🌌",
+    page_icon="🌟",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for galaxy-themed UI
+# Custom CSS for light-themed UI
 st.markdown(
     """
     <style>
-    /* Main app background with galaxy effect */
+    /* Main app background with light theme */
     .stApp {
-        background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 50%, #2c3e50 100%);
-        background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
-        background-size: cover;
-        color: #e0e1dd;
-        font-family: 'Orbitron', 'Arial', sans-serif;
+        background: linear-gradient(135deg, #f0f4f8 0%, #e1e8f0 50%, #d6e0f0 100%);
+        color: #333333;
+        font-family: 'Poppins', 'Arial', sans-serif;
     }
 
     /* Sidebar styling */
     .css-1d391kg {
-        background: rgba(10, 27, 42, 0.9);
-        border-right: 2px solid #00d4ff;
+        background: #ffffff;
+        border-right: 2px solid #007bff;
         padding: 20px;
-        backdrop-filter: blur(5px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .css-1d391kg .stSelectbox, .css-1d391kg .stTextInput {
-        background: rgba(52, 73, 94, 0.8);
-        border: 2px solid #00d4ff;
-        border-radius: 10px;
+        background: #f8f9fa;
+        border: 2px solid #007bff;
+        border-radius: 8px;
         padding: 8px;
     }
     .css-1d391kg .stSelectbox label, .css-1d391kg .stTextInput label {
-        color: #00d4ff;
-        font-weight: bold;
-        text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+        color: #007bff;
+        font-weight: 600;
     }
 
     /* Title and header styling */
     h1 {
-        color: #00d4ff;
+        color: #007bff;
         font-size: 2.8em;
         font-weight: 700;
         text-align: center;
-        text-shadow: 0 0 10px rgba(0, 212, 255, 0.7);
         margin-bottom: 10px;
     }
     h3 {
-        color: #778beb;
+        color: #0056b3;
         font-size: 1.6em;
         font-weight: 600;
-        text-shadow: 0 0 5px rgba(119, 139, 235, 0.5);
     }
 
     /* Card styling for phases */
     .card {
-        background: rgba(27, 39, 59, 0.85);
-        border-radius: 15px;
-        padding: 25px;
-        margin: 20px 0;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 212, 255, 0.2);
-        border: 1px solid #415a77;
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 15px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
     }
 
     /* Resource link styling */
     .resource-link {
-        color: #54a0ff;
+        color: #007bff;
         text-decoration: none;
         font-weight: 500;
         transition: color 0.3s ease;
     }
     .resource-link:hover {
-        color: #00d4ff;
-        text-shadow: 0 0 8px rgba(0, 212, 255, 0.7);
+        color: #0056b3;
+        text-decoration: underline;
     }
 
     /* Selectbox and text input styling */
     .stSelectbox, .stTextInput {
-        background: rgba(52, 73, 94, 0.8);
-        border: 2px solid #00d4ff;
-        border-radius: 10px;
+        background: #f8f9fa;
+        border: 2px solid #007bff;
+        border-radius: 8px;
         padding: 8px;
     }
     .stSelectbox label, .stTextInput label {
-        color: #00d4ff;
-        font-weight: bold;
-        text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+        color: #007bff;
+        font-weight: 600;
     }
 
     /* Success message styling */
     .stSuccess {
-        background: rgba(46, 204, 113, 0.2);
-        border-left: 5px solid #2ecc71;
-        border-radius: 10px;
-        padding: 20px;
-        color: #e0e1dd;
-        box-shadow: 0 0 10px rgba(46, 204, 113, 0.3);
+        background: #e6f4ea;
+        border-left: 5px solid #28a745;
+        border-radius: 8px;
+        padding: 15px;
+        color: #333333;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     /* Footer styling */
     .footer {
         text-align: center;
-        color: #a4b0be;
+        color: #666666;
         font-size: 0.95em;
-        margin-top: 40px;
-        padding: 25px;
-        background: rgba(10, 27, 42, 0.9);
-        border-radius: 10px;
-        box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+        margin-top: 30px;
+        padding: 20px;
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     /* Divider styling */
     hr {
         border: 0;
-        height: 2px;
-        background: linear-gradient(to right, transparent, #00d4ff, transparent);
-        margin: 30px 0;
+        height: 1px;
+        background: linear-gradient(to right, transparent, #007bff, transparent);
+        margin: 25px 0;
     }
 
-    /* Glowing text for emphasis */
-    .glow-text {
-        text-shadow: 0 0 10px rgba(0, 212, 255, 0.7);
+    /* Highlight text for emphasis */
+    .highlight-text {
+        color: #007bff;
+        font-weight: 600;
     }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     """,
     unsafe_allow_html=True
 )
@@ -161,7 +156,7 @@ def authenticate(email, password):
 
 # Sidebar with navigation menu
 with st.sidebar:
-    st.markdown("<h3 style='color: #00d4ff;'>🌌 Cosmic Settings</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color: #007bff;'>🌟 App Settings</h3>", unsafe_allow_html=True)
     
     selected = option_menu(
         menu_title=None,
@@ -170,15 +165,15 @@ with st.sidebar:
         menu_icon="cast",
         default_index=0,
         styles={
-            "container": {"background-color": "rgba(10, 27, 42, 0.9)", "border": "2px solid #00d4ff", "border-radius": "10px"},
-            "nav-link": {"color": "#e0e1dd", "--hover-color": "#00d4ff"},
-            "nav-link-selected": {"background-color": "#00d4ff", "color": "#0d1b2a"},
+            "container": {"background-color": "#ffffff", "border": "2px solid #007bff", "border-radius": "8px"},
+            "nav-link": {"color": "#333333", "--hover-color": "#007bff"},
+            "nav-link-selected": {"background-color": "#007bff", "color": "#ffffff"},
         }
     )
 
     if selected == "Sign In":
         if not st.session_state.authenticated:
-            st.markdown("<h3 class='glow-text'>🔒 Sign In</h3>", unsafe_allow_html=True)
+            st.markdown("<h3 class='highlight-text'>🔒 Sign In</h3>", unsafe_allow_html=True)
             email = st.text_input("Email", key="email_input")
             password = st.text_input("Password", type="password", key="password_input")
             if st.button("Sign In"):
@@ -189,7 +184,7 @@ with st.sidebar:
                 else:
                     st.error("Invalid email or password (password must be at least 6 characters).")
         else:
-            st.markdown(f"<p class='glow-text'>Welcome, {st.session_state.email}!</p>", unsafe_allow_html=True)
+            st.markdown(f"<p class='highlight-text'>Welcome, {st.session_state.email}!</p>", unsafe_allow_html=True)
             if st.button("Sign Out"):
                 st.session_state.authenticated = False
                 st.session_state.email = ""
@@ -201,9 +196,9 @@ with st.sidebar:
 # App title and subtitle
 st.markdown(
     """
-    <h1>🌌 YuvaPath - Cosmic Career Guidance</h1>
-    <p style='text-align: center; color: #a4b0be; font-size: 1.2em;'>
-        Navigate your career path through the stars with free resources & personalized roadmaps.
+    <h1>🌟 YuvaPath - Career Guidance</h1>
+    <p style='text-align: center; color: #666666; font-size: 1.2em;'>
+        Navigate your career path with free resources & personalized roadmaps.
     </p>
     """,
     unsafe_allow_html=True
@@ -212,7 +207,7 @@ st.markdown(
 # Career selection (only shown if authenticated)
 if st.session_state.authenticated:
     st.markdown("<div class='card'>", unsafe_allow_html=True)
-    st.markdown("<h3 class='glow-text'>💫 Select Your Career Constellation</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 class='highlight-text'>🌟 Select Your Career Path</h3>", unsafe_allow_html=True)
     
     # Voice input for career selection
     if st.button("🎤 Select Career by Voice"):
@@ -243,16 +238,16 @@ if st.session_state.authenticated:
         career_data = roadmap_data[career_choice]
 
         st.markdown("<div class='card'>", unsafe_allow_html=True)
-        st.markdown(f"<h3 class='glow-text'>📌 {career_data['title']}</h3>", unsafe_allow_html=True)
+        st.markdown(f"<h3 class='highlight-text'>📌 {career_data['title']}</h3>", unsafe_allow_html=True)
         st.markdown(f"<p><strong>💰 Expected Salary:</strong> {career_data['salary']}</p>", unsafe_allow_html=True)
         st.markdown(f"<p><strong>⏳ Learning Duration:</strong> {career_data['duration']}</p>", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)
 
         st.markdown("<hr>", unsafe_allow_html=True)
-        st.markdown("<h3 class='glow-text'>📚 Cosmic Career Roadmap:</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 class='highlight-text'>📚 Career Roadmap:</h3>", unsafe_allow_html=True)
 
         for phase, resources in career_data["phases"].items():
-            st.markdown(f"<div class='card'><h3 class='glow-text'>🔹 {phase}</h3>", unsafe_allow_html=True)
+            st.markdown(f"<div class='card'><h3 class='highlight-text'>🔹 {phase}</h3>", unsafe_allow_html=True)
             for resource in resources:
                 st.markdown(
                     f"- <a href='{resource['link']}' class='resource-link' target='_blank'>{resource['name']}</a> ({resource['platform']})",
@@ -263,7 +258,7 @@ if st.session_state.authenticated:
         # Project Ideas Section
         if "project_ideas" in career_data:
             st.markdown("<hr>", unsafe_allow_html=True)
-            st.markdown("<h3 class='glow-text'>🚀 Project Ideas:</h3>", unsafe_allow_html=True)
+            st.markdown("<h3 class='highlight-text'>🚀 Project Ideas:</h3>", unsafe_allow_html=True)
             st.markdown("<div class='card'>", unsafe_allow_html=True)
             for project in career_data["project_ideas"]:
                 st.markdown(
@@ -275,7 +270,7 @@ if st.session_state.authenticated:
 
         # Download Roadmap as Markdown
         st.markdown("<hr>", unsafe_allow_html=True)
-        st.markdown("<h3 class='glow-text'>📥 Download Your Roadmap</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 class='highlight-text'>📥 Download Your Roadmap</h3>", unsafe_allow_html=True)
         roadmap_content = f"# {career_data['title']} Roadmap\n\n"
         roadmap_content += f"**Expected Salary:** {career_data['salary']}\n\n"
         roadmap_content += f"**Learning Duration:** {career_data['duration']}\n\n"
@@ -288,7 +283,7 @@ if st.session_state.authenticated:
             roadmap_content += "\n## Project Ideas\n"
             for project in career_data["project_ideas"]:
                 roadmap_content += f"- **{project['title']}**: {project['description']} (*Difficulty: {project['difficulty']}*)\n"
-        roadmap_content += "\n*Generated by YuvaPath - Cosmic Career Guidance*"
+        roadmap_content += "\n*Generated by YuvaPath - Career Guidance*"
         
         buffer = io.StringIO()
         buffer.write(roadmap_content)
@@ -300,12 +295,12 @@ if st.session_state.authenticated:
         )
 
         st.markdown("<hr>", unsafe_allow_html=True)
-        st.success("✅ Chart your course through each phase to reach your stellar career goal!")
+        st.success("✅ Chart your course through each phase to reach your career goal!")
 else:
-    st.warning("Please sign in to access your cosmic career path!")
+    st.warning("Please sign in to access your career path!")
 
 # Footer
 st.markdown(
-    "<div class='footer'>💡 <em>YuvaPath is your cosmic mentor — Explore, Learn, and Conquer the Stars!</em></div>",
+    "<div class='footer'>🌟 <em>YuvaPath is your career mentor — Explore, Learn, and Succeed!</em></div>",
     unsafe_allow_html=True
 )
