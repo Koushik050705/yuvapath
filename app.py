@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import io
 from streamlit_option_menu import option_menu
-import speech_recognition as sr
 import re
 
 # Initialize session state for authentication
@@ -214,28 +213,6 @@ st.markdown(
 if st.session_state.authenticated:
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.markdown("<h3 class='vibrant-text'>🌟 Select Your Career Path</h3>", unsafe_allow_html=True)
-    
-    # Voice input for career selection
-    if st.button("🎤 Select Career by Voice"):
-        recognizer = sr.Recognizer()
-        with sr.Microphone() as source:
-            st.info("Listening... Speak the career name.")
-            try:
-                audio = recognizer.listen(source, timeout=5)
-                career_input = recognizer.recognize_google(audio).lower()
-                career_choice = next((career for career in available_careers if career_input in career.lower()), None)
-                if career_choice:
-                    st.session_state.career = career_choice
-                    st.success(f"Selected career: {career_choice}")
-                else:
-                    st.error("Career not recognized. Please try again or select manually.")
-            except sr.WaitTimeoutError:
-                st.error("No input detected. Please try again.")
-            except sr.UnknownValueError:
-                st.error("Could not understand the audio. Please try again.")
-            except sr.RequestError:
-                st.error("Speech recognition service unavailable. Please select manually.")
-    
     career_choice = st.selectbox("Select Career:", available_careers, key="career")
     st.markdown("</div>", unsafe_allow_html=True)
 
